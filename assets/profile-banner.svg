@@ -1,0 +1,23 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Oniel Alejo Feliz — Full-Stack Developer</title>
+  <desc id="desc">Profile banner for a full-stack developer building dependable and accessible web products in Tampa, Florida.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/><stop offset="0.55" stop-color="#0D2037"/><stop offset="1" stop-color="#123B4A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="230" y1="0" x2="970" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0"/><stop offset="0.5" stop-color="#67E8F9"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1030" cy="40" r="180" fill="#0EA5E9" fill-opacity="0.12" filter="url(#glow)"/>
+  <circle cx="130" cy="330" r="150" fill="#14B8A6" fill-opacity="0.10" filter="url(#glow)"/>
+  <path d="M88 76H178M88 76V166" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1112 284H1022M1112 284V194" stroke="#2DD4BF" stroke-width="3" stroke-linecap="round"/>
+  <text x="600" y="113" text-anchor="middle" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="5">HELLO, I BUILD FOR THE WEB</text>
+  <text x="600" y="184" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="800">Oniel Alejo Feliz</text>
+  <rect x="230" y="211" width="740" height="2" rx="1" fill="url(#line)"/>
+  <text x="600" y="257" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">Full-Stack Developer · Product-Minded Engineer</text>
+  <text x="600" y="302" text-anchor="middle" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="18">Next.js · TypeScript · PostgreSQL · Accessible Systems · Tampa, Florida</text>
+</svg>
