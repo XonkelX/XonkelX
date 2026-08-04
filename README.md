@@ -1,16 +1,122 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Oniel Alejo Feliz — Full-Stack Developer" width="100%" />
+</p>
 
-<!--
-**XonkelX/XonkelX** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://oniel-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit_site-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Oniel's portfolio" /></a>
+  <a href="mailto:Onielbf10@gmail.com"><img src="https://img.shields.io/badge/Email-Let's_talk-0369A1?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Oniel" /></a>
+  <a href="https://github.com/XonkelX?tab=repositories"><img src="https://img.shields.io/badge/Projects-View_code-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="View Oniel's projects" /></a>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <strong>Available for junior full-stack and software-development opportunities</strong><br />
+  Building dependable products from accessible interfaces to secure data architecture.
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 👨‍💻 Professional profile
+
+I am a **full-stack developer in Tampa, Florida** who turns product ideas into complete, deployed web applications. I work across responsive React interfaces, authentication, relational data modeling, authorization, automated testing, documentation, and production delivery.
+
+My portfolio demonstrates more than screens: it shows how I reason about **data ownership, privacy, accessibility, concurrency, real-time synchronization, and operational constraints**.
+
+<table>
+  <tr>
+    <td align="center"><strong>3</strong><br />Deployed products</td>
+    <td align="center"><strong>310</strong><br />Documented release checks</td>
+    <td align="center"><strong>Full stack</strong><br />UI to database</td>
+    <td align="center"><strong>Open to work</strong><br />Tampa / Remote</td>
+  </tr>
+</table>
+
+## 🚀 Featured engineering work
+
+### Next — Real-Time Queue System
+
+> A persistent, multi-client queue for customers, staff, and public displays, with authorization and state transitions enforced in PostgreSQL.
+
+[![Live application](https://img.shields.io/badge/LIVE_APPLICATION-Open-059669?style=flat-square&logo=vercel&logoColor=white)](https://next-queue-omega.vercel.app)
+[![Interactive demo](https://img.shields.io/badge/INTERACTIVE_DEMO-Try_it-0284C7?style=flat-square)](https://next-queue-omega.vercel.app/demo)
+[![Source](https://img.shields.io/badge/SOURCE-Code-181717?style=flat-square&logo=github)](https://github.com/XonkelX/next-queue)
+
+- Database-enforced authorization with RLS, security-definer RPCs, and private/public data boundaries
+- Idempotent commands, transactional row locks, monotonic revisions, and multi-client Realtime convergence
+- **131 passing release checks** across Vitest, pgTAP, integration, Playwright, and production smoke testing
+
+<code>Next.js</code> · <code>TypeScript</code> · <code>Supabase</code> · <code>PostgreSQL</code> · <code>Realtime</code> · <code>pgTAP</code> · <code>Playwright</code>
+
+### CareerFlow — Career Management Platform
+
+> A privacy-conscious workspace for tracking applications, deadlines, status progress, dashboard insights, and resume versions.
+
+[![Live application](https://img.shields.io/badge/LIVE_APPLICATION-Open-059669?style=flat-square&logo=vercel&logoColor=white)](https://careerflow-snowy.vercel.app)
+[![Release](https://img.shields.io/badge/RELEASE-v1.0.0-7C3AED?style=flat-square&logo=github)](https://github.com/XonkelX/ai-career-tracker/releases/tag/v1.0.0)
+[![Source](https://img.shields.io/badge/SOURCE-Code-181717?style=flat-square&logo=github)](https://github.com/XonkelX/ai-career-tracker)
+
+- Server-enforced ownership boundaries, Auth.js sessions, Argon2id credentials, and Zod validation
+- Searchable application workflows, deadline-aware dashboards, and versioned resume organization
+- **179 passing tests** spanning unit, component, integration, and database-backed coverage
+
+<code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>PostgreSQL</code> · <code>Prisma</code> · <code>Auth.js</code> · <code>Vitest</code>
+
+### Developer Portfolio
+
+> A typography-led portfolio that turns finished engineering work into accessible, recruiter-friendly case studies.
+
+[![Visit portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-Visit-0F766E?style=flat-square&logo=vercel&logoColor=white)](https://oniel-portfolio.vercel.app)
+[![Source](https://img.shields.io/badge/SOURCE-Code-181717?style=flat-square&logo=github)](https://github.com/XonkelX/oniel-portfolio)
+
+- Responsive editorial presentation, dark/light themes, restrained motion, and reduced-motion support
+- Semantic structure, keyboard navigation, focus management, Playwright journeys, and axe checks
+
+<code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>Motion</code> · <code>Playwright</code> · <code>axe-core</code>
+
+## 🧰 Engineering toolkit
+
+**Frontend**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+**Backend & data**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Auth.js](https://img.shields.io/badge/Auth.js-000000?style=flat-square&logo=auth0&logoColor=white)
+
+**Testing & delivery**
+
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+## 📊 GitHub activity
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=XonkelX&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&include_all_commits=true" alt="Oniel's GitHub statistics" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XonkelX&layout=compact&hide_border=true&theme=transparent&langs_count=6" alt="Languages used across Oniel's public repositories" />
+</p>
+
+## 🧭 How I build
+
+- Start with the decision a user needs to make, then design the smallest clear system around it.
+- Treat authorization, privacy, and ownership as architecture—not afterthoughts.
+- Validate behavior through automated tests, keyboard review, responsive QA, and production builds.
+- Document tradeoffs, limitations, setup, and release evidence honestly.
+
+## 🤝 Let’s build something useful
+
+I am looking for a **junior full-stack or software-developer role** where I can contribute dependable engineering, grow with an experienced team, and help ship thoughtful products.
+
+<p align="center">
+  <a href="mailto:Onielbf10@gmail.com"><img src="https://img.shields.io/badge/Contact_Oniel-Open_to_opportunities-0284C7?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Oniel about an opportunity" /></a>
+</p>
