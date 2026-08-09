@@ -19,18 +19,32 @@
 
 I am a **full-stack developer in Tampa, Florida** who turns product ideas into complete, deployed web applications. I work across responsive React interfaces, authentication, relational data modeling, authorization, automated testing, documentation, and production delivery.
 
-My portfolio demonstrates more than screens: it shows how I reason about **data ownership, privacy, accessibility, concurrency, real-time synchronization, and operational constraints**.
+My portfolio demonstrates more than screens: it shows how I reason about **reliability, data ownership, privacy, accessibility, concurrency, real-time synchronization, and operational constraints**.
 
 <table>
   <tr>
-    <td align="center"><strong>3</strong><br />Deployed products</td>
-    <td align="center"><strong>310</strong><br />Documented release checks</td>
+    <td align="center"><strong>4</strong><br />Deployed products</td>
+    <td align="center"><strong>614</strong><br />Documented release checks</td>
     <td align="center"><strong>Full stack</strong><br />UI to database</td>
     <td align="center"><strong>Open to work</strong><br />Tampa / Remote</td>
   </tr>
 </table>
 
 ## 🚀 Featured engineering work
+
+### Relay — Reliable Webhook Delivery
+
+> A production webhook delivery platform with durable scheduling, signed requests, deterministic retries, operational evidence, and a public failure laboratory.
+
+[![Failure Lab](https://img.shields.io/badge/LIVE_FAILURE_LAB-Open-166534?style=flat-square&logo=cloudflare&logoColor=white)](https://relay-console.sinmanos.workers.dev/failure-lab)
+[![Release](https://img.shields.io/badge/RELEASE-v1.0.0-15803D?style=flat-square&logo=github)](https://github.com/XonkelX/relay-webhook-delivery/releases/tag/v1.0.0)
+[![Source](https://img.shields.io/badge/SOURCE-Code-181717?style=flat-square&logo=github)](https://github.com/XonkelX/relay-webhook-delivery)
+
+- Transactional outbox, D1-backed scheduling, Queue transport, lease recovery, and bounded at-least-once delivery
+- Standard Webhooks-compatible signatures, AES-GCM encrypted endpoint secrets, replay lineage, and redacted attempt evidence
+- **304 release checks** plus a production flaky run proving HTTP 500 → 500 → 200 recovery with stable message identity
+
+<code>TypeScript</code> · <code>React</code> · <code>Cloudflare Workers</code> · <code>D1</code> · <code>Queues</code> · <code>Hono</code> · <code>Vitest</code> · <code>Playwright</code>
 
 ### Next — Real-Time Queue System
 
@@ -90,6 +104,8 @@ My portfolio demonstrates more than screens: it shows how I reason about **data 
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Auth.js](https://img.shields.io/badge/Auth.js-000000?style=flat-square&logo=auth0&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Cloudflare D1](https://img.shields.io/badge/Cloudflare_D1-F6821F?style=flat-square&logo=cloudflare&logoColor=white)
 
 **Testing & delivery**
 
