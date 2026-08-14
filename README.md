@@ -86,6 +86,40 @@ My portfolio demonstrates more than screens: it shows how I reason about **relia
 
 <code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>Motion</code> · <code>Playwright</code> · <code>axe-core</code>
 
+## 🤝 Open-source contributions
+
+Completed contributions currently under maintainer review.
+
+### Reticle — Persistent learned routes
+
+[![Pull request](https://img.shields.io/badge/PR_%23278-Under_review-0969DA?style=flat-square&logo=github)](https://github.com/reticlehq/reticle/pull/278)
+
+- Persisted routes learned from crawling and ordinary browser navigation as deterministic, duplicate-free project data
+- Preserved existing learned flows, run history, and absent-versus-empty semantics under concurrent updates
+- Added focused unit and E2E coverage; the complete upstream CI pipeline is passing
+
+<code>TypeScript</code> · <code>Node.js</code> · <code>Playwright</code> · <code>pnpm</code>
+
+### Maka Agent — Bounded MCP tool rediscovery
+
+[![Pull request](https://img.shields.io/badge/PR_%232989-Ready_for_review-0969DA?style=flat-square&logo=github)](https://github.com/maka-agent/maka-agent/pull/2989)
+
+- Prevented an MCP server from causing an unbounded discovery loop by notifying after every tool-list response
+- Preserved the last callable tool snapshot, surfaced a bounded diagnostic, and kept configuration removal responsive
+- Added a regression fixture covering the hostile notification pattern; all 58 MCP workspace tests pass locally
+
+<code>TypeScript</code> · <code>Node.js</code> · <code>MCP</code> · <code>npm</code>
+
+### Bluehex — Production-build browser testing
+
+[![Pull request](https://img.shields.io/badge/PR_%2329-Ready_for_review-0969DA?style=flat-square&logo=github)](https://github.com/codesydney/bluehex/pull/29)
+
+- Added Playwright coverage for production routes, responsive navigation, focus behavior, form submission, and structural accessibility
+- Configured desktop and mobile Chromium projects plus a standalone GitHub Actions workflow
+- Verified 18 end-to-end tests locally across both browser profiles
+
+<code>Next.js</code> · <code>TypeScript</code> · <code>Playwright</code> · <code>axe-core</code> · <code>GitHub Actions</code>
+
 ## 🧰 Engineering toolkit
 
 **Frontend**
