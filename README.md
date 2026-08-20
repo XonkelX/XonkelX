@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <strong>Available for junior full-stack and software-development opportunities</strong><br />
+  <strong>Available for full-stack and software-engineering opportunities</strong><br />
   Building dependable products from accessible interfaces to secure data architecture.
 </p>
 
@@ -24,7 +24,7 @@ My portfolio demonstrates more than screens: it shows how I reason about **relia
 <table>
   <tr>
     <td align="center"><strong>4</strong><br />Deployed products</td>
-    <td align="center"><strong>614</strong><br />Documented release checks</td>
+    <td align="center"><strong>614</strong><br />Checks across 3 systems</td>
     <td align="center"><strong>Full stack</strong><br />UI to database</td>
     <td align="center"><strong>Open to work</strong><br />Tampa / Remote</td>
   </tr>
@@ -88,11 +88,11 @@ My portfolio demonstrates more than screens: it shows how I reason about **relia
 
 ## 🤝 Open-source contributions
 
-Completed contributions currently under maintainer review.
+Contributions to established codebases, including two merged pull requests and one active review.
 
 ### Reticle — Persistent learned routes
 
-[![Pull request](https://img.shields.io/badge/PR_%23278-Under_review-0969DA?style=flat-square&logo=github)](https://github.com/reticlehq/reticle/pull/278)
+[![Pull request](https://img.shields.io/badge/PR_%23278-Merged-8250DF?style=flat-square&logo=github)](https://github.com/reticlehq/reticle/pull/278)
 
 - Persisted routes learned from crawling and ordinary browser navigation as deterministic, duplicate-free project data
 - Preserved existing learned flows, run history, and absent-versus-empty semantics under concurrent updates
@@ -100,25 +100,25 @@ Completed contributions currently under maintainer review.
 
 <code>TypeScript</code> · <code>Node.js</code> · <code>Playwright</code> · <code>pnpm</code>
 
-### Maka Agent — Bounded MCP tool rediscovery
+### Bluehex — Production-build browser testing
 
-[![Pull request](https://img.shields.io/badge/PR_%232989-Ready_for_review-0969DA?style=flat-square&logo=github)](https://github.com/maka-agent/maka-agent/pull/2989)
+[![Pull request](https://img.shields.io/badge/PR_%2329-Merged-8250DF?style=flat-square&logo=github)](https://github.com/codesydney/bluehex/pull/29)
+
+- Added Playwright coverage for production routes, responsive navigation, focus behavior, form submission, and structural accessibility
+- Configured desktop and mobile Chromium projects plus a standalone GitHub Actions workflow
+- Verified 18 end-to-end tests across both browser profiles and incorporated maintainer review before merge
+
+<code>Next.js</code> · <code>TypeScript</code> · <code>Playwright</code> · <code>axe-core</code> · <code>GitHub Actions</code>
+
+### Apache Maka — Bounded MCP tool rediscovery
+
+[![Pull request](https://img.shields.io/badge/PR_%232989-Under_review-0969DA?style=flat-square&logo=github)](https://github.com/apache/maka/pull/2989)
 
 - Prevented an MCP server from causing an unbounded discovery loop by notifying after every tool-list response
 - Preserved the last callable tool snapshot, surfaced a bounded diagnostic, and kept configuration removal responsive
 - Added a regression fixture covering the hostile notification pattern; all 58 MCP workspace tests pass locally
 
 <code>TypeScript</code> · <code>Node.js</code> · <code>MCP</code> · <code>npm</code>
-
-### Bluehex — Production-build browser testing
-
-[![Pull request](https://img.shields.io/badge/PR_%2329-Ready_for_review-0969DA?style=flat-square&logo=github)](https://github.com/codesydney/bluehex/pull/29)
-
-- Added Playwright coverage for production routes, responsive navigation, focus behavior, form submission, and structural accessibility
-- Configured desktop and mobile Chromium projects plus a standalone GitHub Actions workflow
-- Verified 18 end-to-end tests locally across both browser profiles
-
-<code>Next.js</code> · <code>TypeScript</code> · <code>Playwright</code> · <code>axe-core</code> · <code>GitHub Actions</code>
 
 ## 🧰 Engineering toolkit
 
@@ -165,7 +165,7 @@ Completed contributions currently under maintainer review.
 
 ## 🤝 Let’s build something useful
 
-I am looking for a **junior full-stack or software-developer role** where I can contribute dependable engineering, grow with an experienced team, and help ship thoughtful products.
+I am open to **full-stack and software-engineering roles** where I can contribute dependable engineering, collaborate effectively, and help ship thoughtful products.
 
 <p align="center">
   <a href="mailto:Onielbf10@gmail.com"><img src="https://img.shields.io/badge/Contact_Oniel-Open_to_opportunities-0284C7?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Oniel about an opportunity" /></a>
