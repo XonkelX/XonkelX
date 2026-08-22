@@ -25,7 +25,7 @@ My portfolio demonstrates more than screens: it shows how I reason about **relia
 <table>
   <tr>
     <td align="center"><strong>4</strong><br />Deployed products</td>
-    <td align="center"><strong>3</strong><br />Merged upstream PRs</td>
+    <td align="center"><strong>4</strong><br />Merged upstream PRs</td>
     <td align="center"><strong>Full stack</strong><br />UI to database</td>
     <td align="center"><strong>Open to work</strong><br />Tampa / Remote</td>
   </tr>
@@ -89,7 +89,17 @@ My portfolio demonstrates more than screens: it shows how I reason about **relia
 
 ## 🤝 Open-source contributions
 
-Contributions to established codebases, including three merged pull requests and one active review.
+Contributions to established codebases, including four merged pull requests and one active review.
+
+### Clarvia — Accessible bereavement workflows
+
+[![Pull request](https://img.shields.io/badge/PR_%23269-Merged-8250DF?style=flat-square&logo=github)](https://github.com/clarvia-org/clarvia-graph/pull/269)
+
+- Audited the checklist and contribution paths with keyboard navigation, axe-core, Chromium accessibility inspection, and NVDA
+- Fixed focus containment and restoration across the mobile drawer, cookie dialog, and checklist preview without changing the visual design
+- Added programmatic question labels, selected-state semantics, named inputs, and keyboard-operable result cards; upstream validation and security checks passed
+
+<code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>Accessibility</code> · <code>NVDA</code> · <code>axe-core</code>
 
 ### Reticle — Persistent learned routes
 
