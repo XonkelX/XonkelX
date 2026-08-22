@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://oniel-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit_site-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Oniel's portfolio" /></a>
   <a href="mailto:Onielbf10@gmail.com"><img src="https://img.shields.io/badge/Email-Let's_talk-0369A1?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Oniel" /></a>
+  <a href="https://www.linkedin.com/in/oniel-alejo-feliz-45b293312"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Oniel on LinkedIn" /></a>
   <a href="https://github.com/XonkelX?tab=repositories"><img src="https://img.shields.io/badge/Projects-View_code-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="View Oniel's projects" /></a>
 </p>
 
@@ -24,7 +25,7 @@ My portfolio demonstrates more than screens: it shows how I reason about **relia
 <table>
   <tr>
     <td align="center"><strong>4</strong><br />Deployed products</td>
-    <td align="center"><strong>614</strong><br />Checks across 3 systems</td>
+    <td align="center"><strong>3</strong><br />Merged upstream PRs</td>
     <td align="center"><strong>Full stack</strong><br />UI to database</td>
     <td align="center"><strong>Open to work</strong><br />Tampa / Remote</td>
   </tr>
@@ -34,9 +35,9 @@ My portfolio demonstrates more than screens: it shows how I reason about **relia
 
 ### Relay — Reliable Webhook Delivery
 
-> A production webhook delivery platform with durable scheduling, signed requests, deterministic retries, operational evidence, and a public failure laboratory.
+> A deployed webhook delivery portfolio release with durable scheduling, signed requests, deterministic retries, operational evidence, and a public failure laboratory.
 
-[![Failure Lab](https://img.shields.io/badge/LIVE_FAILURE_LAB-Open-166534?style=flat-square&logo=cloudflare&logoColor=white)](https://relay-console.sinmanos.workers.dev/failure-lab)
+[![Relay demo](https://img.shields.io/badge/LIVE_RELAY_DEMO-Open-166534?style=flat-square&logo=cloudflare&logoColor=white)](https://relay-console.sinmanos.workers.dev/)
 [![Release](https://img.shields.io/badge/RELEASE-v1.0.0-15803D?style=flat-square&logo=github)](https://github.com/XonkelX/relay-webhook-delivery/releases/tag/v1.0.0)
 [![Source](https://img.shields.io/badge/SOURCE-Code-181717?style=flat-square&logo=github)](https://github.com/XonkelX/relay-webhook-delivery)
 
@@ -88,7 +89,7 @@ My portfolio demonstrates more than screens: it shows how I reason about **relia
 
 ## 🤝 Open-source contributions
 
-Contributions to established codebases, including two merged pull requests and one active review.
+Contributions to established codebases, including three merged pull requests and one active review.
 
 ### Reticle — Persistent learned routes
 
@@ -112,13 +113,22 @@ Contributions to established codebases, including two merged pull requests and o
 
 ### Apache Maka — Bounded MCP tool rediscovery
 
-[![Pull request](https://img.shields.io/badge/PR_%232989-Under_review-0969DA?style=flat-square&logo=github)](https://github.com/apache/maka/pull/2989)
+[![Pull request](https://img.shields.io/badge/PR_%232989-Merged-8250DF?style=flat-square&logo=github)](https://github.com/apache/maka/pull/2989)
 
 - Prevented an MCP server from causing an unbounded discovery loop by notifying after every tool-list response
-- Preserved the last callable tool snapshot, surfaced a bounded diagnostic, and kept configuration removal responsive
-- Added a regression fixture covering the hostile notification pattern; all 58 MCP workspace tests pass locally
+- Preserved the last callable tool snapshot while coalescing valid updates and keeping configuration removal responsive
+- Addressed adversarial review findings with delayed-response and notification-burst regressions before the upstream merge
 
 <code>TypeScript</code> · <code>Node.js</code> · <code>MCP</code> · <code>npm</code>
+
+### FinVerify — Keyboard-accessible trust scores
+
+[![Pull request](https://img.shields.io/badge/PR_%2370-Under_review-0969DA?style=flat-square&logo=github)](https://github.com/FinVerify/Finverify/pull/70)
+
+- Turned visual confidence indicators into named ARIA meters with keyboard focus treatment
+- Replaced dense verification cards with a semantic table and strengthened accessible workspace coverage
+
+<code>React</code> · <code>TypeScript</code> · <code>Accessibility</code> · <code>axe-core</code>
 
 ## 🧰 Engineering toolkit
 
@@ -148,13 +158,6 @@ Contributions to established codebases, including two merged pull requests and o
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-## 📊 GitHub activity
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=XonkelX&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&include_all_commits=true" alt="Oniel's GitHub statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XonkelX&layout=compact&hide_border=true&theme=transparent&langs_count=6" alt="Languages used across Oniel's public repositories" />
-</p>
 
 ## 🧭 How I build
 
