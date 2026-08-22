@@ -14,6 +14,10 @@
   Building dependable products from accessible interfaces to secure data architecture.
 </p>
 
+<p align="center">
+  <a href="https://github.com/XonkelX/gif-terminal"><img src="https://raw.githubusercontent.com/XonkelX/gif-terminal/main/output.gif" alt="Animated terminal showing Oniel Alejo Feliz's GitHub activity and full-stack engineering toolkit" width="700" /></a>
+</p>
+
 ---
 
 ## 👨‍💻 Professional profile
