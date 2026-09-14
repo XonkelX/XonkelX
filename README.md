@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://oniel-portfolio.vercel.app">Portfolio</a> ·
-  <a href="https://oniel-portfolio.vercel.app/services">Maintenance services</a> ·
+  <a href="https://onielalejofeliz.space/">Portfolio</a> ·
+  <a href="https://onielalejofeliz.space/services">Maintenance services</a> ·
   <a href="mailto:Onielbf10@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/oniel-alejo-feliz-45b293312">LinkedIn</a>
 </p>
@@ -75,4 +75,4 @@ I work on scoped maintenance and reliability problems in React, Next.js, Node.js
 
 The working pattern is simple: existing codebase → root-cause diagnosis → focused safe fix → regression evidence → clean pull request → clear explanation.
 
-**[Start with one scoped issue](mailto:Onielbf10@gmail.com?subject=Scoped%20TypeScript%20maintenance%20issue)** or [review the service details](https://oniel-portfolio.vercel.app/services).
+**[Start with one scoped issue](mailto:Onielbf10@gmail.com?subject=Scoped%20TypeScript%20maintenance%20issue)** or [review the service details](https://onielalejofeliz.space/services).
