@@ -1,189 +1,78 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Oniel Alejo Feliz — Full-Stack Developer" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Oniel Alejo Feliz — Software Engineer" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://oniel-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit_site-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Oniel's portfolio" /></a>
-  <a href="mailto:Onielbf10@gmail.com"><img src="https://img.shields.io/badge/Email-Let's_talk-0369A1?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Oniel" /></a>
-  <a href="https://www.linkedin.com/in/oniel-alejo-feliz-45b293312"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Oniel on LinkedIn" /></a>
-  <a href="https://github.com/XonkelX?tab=repositories"><img src="https://img.shields.io/badge/Projects-View_code-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="View Oniel's projects" /></a>
+  <strong>Software Engineer</strong><br />
+  TypeScript · Node.js · React / Next.js · PostgreSQL<br />
+  Existing codebases · Reliability · Testing · Debugging
 </p>
 
 <p align="center">
-  <strong>Available for full-stack and software-engineering opportunities</strong><br />
-  Building dependable products from accessible interfaces to secure data architecture.
+  <a href="https://oniel-portfolio.vercel.app">Portfolio</a> ·
+  <a href="https://oniel-portfolio.vercel.app/services">Maintenance services</a> ·
+  <a href="mailto:Onielbf10@gmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/oniel-alejo-feliz-45b293312">LinkedIn</a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/XonkelX/gif-terminal"><img src="https://raw.githubusercontent.com/XonkelX/gif-terminal/main/output.gif" alt="Animated terminal showing Oniel Alejo Feliz's GitHub activity and full-stack engineering toolkit" width="700" /></a>
-</p>
+## Engineering profile
 
----
+I am a software engineer in Tampa, Florida, focused on TypeScript systems across React and Next.js interfaces, Node.js services, and PostgreSQL data boundaries. My strongest public work shows how I enter an unfamiliar repository, reproduce real behavior, respond to maintainer review, add regression coverage, and deliver a focused change through upstream CI.
 
-## 👨‍💻 Professional profile
+I am open to software-engineering, full-stack, product-engineering, backend-leaning TypeScript, and React roles in Tampa or remote. I am a U.S. permanent resident and do not require employer sponsorship.
 
-I am a **full-stack developer in Tampa, Florida** who turns product ideas into complete, deployed web applications. I work across responsive React interfaces, authentication, relational data modeling, authorization, automated testing, documentation, and production delivery.
+## Maintainer-reviewed open source
 
-My portfolio demonstrates more than screens: it shows how I reason about **reliability, data ownership, privacy, accessibility, concurrency, real-time synchronization, and operational constraints**.
+### [Reticle #278 — Persist learned routes](https://github.com/reticlehq/reticle/pull/278)
 
-<table>
-  <tr>
-    <td align="center"><strong>4</strong><br />Deployed products</td>
-    <td align="center"><strong>4</strong><br />Merged upstream PRs</td>
-    <td align="center"><strong>Full stack</strong><br />UI to database</td>
-    <td align="center"><strong>Open to work</strong><br />Tampa / Remote</td>
-  </tr>
-</table>
+- Added bounded, batched persistence for routes learned through crawls and ordinary navigation.
+- Preserved flows, run history, concurrency behavior, and absent-versus-empty semantics.
+- Addressed growth and write-contention review findings; full cross-platform, unit, E2E, desktop, and install gates passed.
+- Maintainer feedback: “the strongest PR in the queue right now.” [Read the review in context](https://github.com/reticlehq/reticle/pull/278#issuecomment-5289373138).
 
-## 🚀 Featured engineering work
+### [Apache Maka #2989 — Bound repeated MCP tool rediscovery](https://github.com/apache/maka/pull/2989)
 
-### Relay — Reliable Webhook Delivery
+- Stopped an MCP server from causing an unbounded tool-list refresh loop.
+- Revised the design after substantive edge-case review covering slow notifications, snapshot preservation, and disconnect behavior.
+- Maintainers confirmed the blockers were resolved before merge; upstream checks passed.
 
-> A deployed webhook delivery portfolio release with durable scheduling, signed requests, deterministic retries, operational evidence, and a public failure laboratory.
+### [Apache Fineract #475 — Migrate client tests to Vitest](https://github.com/apache/fineract-backoffice-ui/pull/475)
 
-[![Relay demo](https://img.shields.io/badge/LIVE_RELAY_DEMO-Open-166534?style=flat-square&logo=cloudflare&logoColor=white)](https://relay-console.sinmanos.workers.dev/)
-[![Release](https://img.shields.io/badge/RELEASE-v1.0.0-15803D?style=flat-square&logo=github)](https://github.com/XonkelX/relay-webhook-delivery/releases/tag/v1.0.0)
-[![Source](https://img.shields.io/badge/SOURCE-Code-181717?style=flat-square&logo=github)](https://github.com/XonkelX/relay-webhook-delivery)
+- Migrated fifteen client-area specification files while preserving behavioral coverage.
+- Passed maintainer approval plus unit, build, formatting, security, CodeQL, and extensive browser gates.
 
-- Transactional outbox, D1-backed scheduling, Queue transport, lease recovery, and bounded at-least-once delivery
-- Standard Webhooks-compatible signatures, AES-GCM encrypted endpoint secrets, replay lineage, and redacted attempt evidence
-- **304 release checks** plus a production flaky run proving HTTP 500 → 500 → 200 recovery with stable message identity
+### [Code.Sydney / BlueHex #29 — Add production-build Playwright coverage](https://github.com/codesydney/bluehex/pull/29)
 
-<code>TypeScript</code> · <code>React</code> · <code>Cloudflare Workers</code> · <code>D1</code> · <code>Queues</code> · <code>Hono</code> · <code>Vitest</code> · <code>Playwright</code>
+- Added desktop and mobile browser coverage for routes, focus behavior, navigation, form submission, and structural accessibility.
+- Strengthened the assertions and CI workflow in response to maintainer review before merge.
 
-### Next — Real-Time Queue System
+### [Clarvia #269 — Improve checklist accessibility](https://github.com/clarvia-org/clarvia-graph/pull/269)
 
-> A persistent, multi-client queue for customers, staff, and public displays, with authorization and state transitions enforced in PostgreSQL.
+- Fixed focus containment and restoration, question labels, selected-state semantics, and keyboard-operable result cards.
+- Merged after maintainer approval and repository validation.
 
-[![Live application](https://img.shields.io/badge/LIVE_APPLICATION-Open-059669?style=flat-square&logo=vercel&logoColor=white)](https://next-queue-omega.vercel.app)
-[![Interactive demo](https://img.shields.io/badge/INTERACTIVE_DEMO-Try_it-0284C7?style=flat-square)](https://next-queue-omega.vercel.app/demo)
-[![Source](https://img.shields.io/badge/SOURCE-Code-181717?style=flat-square&logo=github)](https://github.com/XonkelX/next-queue)
+Also merged: [Apache Fineract #431 — Accounting route titles](https://github.com/apache/fineract-backoffice-ui/pull/431). Open contributions remain labeled separately: [Agenta #6224](https://github.com/Agenta-AI/agenta/pull/6224) and [FinVerify #70](https://github.com/FinVerify/Finverify/pull/70).
 
-- Database-enforced authorization with RLS, security-definer RPCs, and private/public data boundaries
-- Idempotent commands, transactional row locks, monotonic revisions, and multi-client Realtime convergence
-- **131 passing release checks** across Vitest, pgTAP, integration, Playwright, and production smoke testing
+## Selected systems
 
-<code>Next.js</code> · <code>TypeScript</code> · <code>Supabase</code> · <code>PostgreSQL</code> · <code>Realtime</code> · <code>pgTAP</code> · <code>Playwright</code>
+### [Relay — Webhook delivery and failure recovery](https://github.com/XonkelX/relay-webhook-delivery)
 
-### CareerFlow — Career Management Platform
+TypeScript, React, Cloudflare Workers, D1, Queues, Hono, Vitest, and Playwright. Relay demonstrates durable scheduling, signed requests, deterministic retries, lease recovery, encrypted endpoint secrets, replay lineage, and inspectable failure evidence. [Open the Failure Lab](https://relay-console.sinmanos.workers.dev/).
 
-> A privacy-conscious workspace for tracking applications, deadlines, status progress, dashboard insights, and resume versions.
+### [Next — Authorization and real-time queue state](https://github.com/XonkelX/next-queue)
 
-[![Live application](https://img.shields.io/badge/LIVE_APPLICATION-Open-059669?style=flat-square&logo=vercel&logoColor=white)](https://careerflow-snowy.vercel.app)
-[![Release](https://img.shields.io/badge/RELEASE-v1.0.0-7C3AED?style=flat-square&logo=github)](https://github.com/XonkelX/ai-career-tracker/releases/tag/v1.0.0)
-[![Source](https://img.shields.io/badge/SOURCE-Code-181717?style=flat-square&logo=github)](https://github.com/XonkelX/ai-career-tracker)
+Next.js, TypeScript, Supabase, PostgreSQL, Realtime, pgTAP, and Playwright. Next demonstrates database-enforced RLS, transactional commands, idempotency, private and public data boundaries, concurrency control, and reconnect recovery. [Open the live application](https://next-queue-omega.vercel.app).
 
-- Server-enforced ownership boundaries, Auth.js sessions, Argon2id credentials, and Zod validation
-- Searchable application workflows, deadline-aware dashboards, and versioned resume organization
-- **179 passing tests** spanning unit, component, integration, and database-backed coverage
+## Need an existing TypeScript app fixed?
 
-<code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>PostgreSQL</code> · <code>Prisma</code> · <code>Auth.js</code> · <code>Vitest</code>
+I work on scoped maintenance and reliability problems in React, Next.js, Node.js, Supabase, and PostgreSQL codebases:
 
-### Developer Portfolio
+- authentication, sessions, permissions, tenant isolation, and Supabase RLS
+- API, query, data-loading, React state, forms, filters, and dashboard bugs
+- build, Vercel, environment, runtime, CI, and unstable-test failures
+- Playwright and Vitest regression coverage
+- independent review and stabilization of AI-built or AI-assisted applications
 
-> A typography-led portfolio that turns finished engineering work into accessible, recruiter-friendly case studies.
+The working pattern is simple: existing codebase → root-cause diagnosis → focused safe fix → regression evidence → clean pull request → clear explanation.
 
-[![Visit portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-Visit-0F766E?style=flat-square&logo=vercel&logoColor=white)](https://oniel-portfolio.vercel.app)
-[![Source](https://img.shields.io/badge/SOURCE-Code-181717?style=flat-square&logo=github)](https://github.com/XonkelX/oniel-portfolio)
-
-- Responsive editorial presentation, dark/light themes, restrained motion, and reduced-motion support
-- Semantic structure, keyboard navigation, focus management, Playwright journeys, and axe checks
-
-<code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>Motion</code> · <code>Playwright</code> · <code>axe-core</code>
-
-## 🤝 Open-source contributions
-
-Contributions to established codebases, including four merged pull requests and one active review.
-
-### Clarvia — Accessible bereavement workflows
-
-[![Pull request](https://img.shields.io/badge/PR_%23269-Merged-8250DF?style=flat-square&logo=github)](https://github.com/clarvia-org/clarvia-graph/pull/269)
-
-- Audited the checklist and contribution paths with keyboard navigation, axe-core, Chromium accessibility inspection, and NVDA
-- Fixed focus containment and restoration across the mobile drawer, cookie dialog, and checklist preview without changing the visual design
-- Added programmatic question labels, selected-state semantics, named inputs, and keyboard-operable result cards; upstream validation and security checks passed
-
-<code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>Accessibility</code> · <code>NVDA</code> · <code>axe-core</code>
-
-### Reticle — Persistent learned routes
-
-[![Pull request](https://img.shields.io/badge/PR_%23278-Merged-8250DF?style=flat-square&logo=github)](https://github.com/reticlehq/reticle/pull/278)
-
-- Persisted routes learned from crawling and ordinary browser navigation as deterministic, duplicate-free project data
-- Preserved existing learned flows, run history, and absent-versus-empty semantics under concurrent updates
-- Added focused unit and E2E coverage; the complete upstream CI pipeline is passing
-
-<code>TypeScript</code> · <code>Node.js</code> · <code>Playwright</code> · <code>pnpm</code>
-
-### Bluehex — Production-build browser testing
-
-[![Pull request](https://img.shields.io/badge/PR_%2329-Merged-8250DF?style=flat-square&logo=github)](https://github.com/codesydney/bluehex/pull/29)
-
-- Added Playwright coverage for production routes, responsive navigation, focus behavior, form submission, and structural accessibility
-- Configured desktop and mobile Chromium projects plus a standalone GitHub Actions workflow
-- Verified 18 end-to-end tests across both browser profiles and incorporated maintainer review before merge
-
-<code>Next.js</code> · <code>TypeScript</code> · <code>Playwright</code> · <code>axe-core</code> · <code>GitHub Actions</code>
-
-### Apache Maka — Bounded MCP tool rediscovery
-
-[![Pull request](https://img.shields.io/badge/PR_%232989-Merged-8250DF?style=flat-square&logo=github)](https://github.com/apache/maka/pull/2989)
-
-- Prevented an MCP server from causing an unbounded discovery loop by notifying after every tool-list response
-- Preserved the last callable tool snapshot while coalescing valid updates and keeping configuration removal responsive
-- Addressed adversarial review findings with delayed-response and notification-burst regressions before the upstream merge
-
-<code>TypeScript</code> · <code>Node.js</code> · <code>MCP</code> · <code>npm</code>
-
-### FinVerify — Keyboard-accessible trust scores
-
-[![Pull request](https://img.shields.io/badge/PR_%2370-Under_review-0969DA?style=flat-square&logo=github)](https://github.com/FinVerify/Finverify/pull/70)
-
-- Turned visual confidence indicators into named ARIA meters with keyboard focus treatment
-- Replaced dense verification cards with a semantic table and strengthened accessible workspace coverage
-
-<code>React</code> · <code>TypeScript</code> · <code>Accessibility</code> · <code>axe-core</code>
-
-## 🧰 Engineering toolkit
-
-**Frontend**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**Backend & data**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Auth.js](https://img.shields.io/badge/Auth.js-000000?style=flat-square&logo=auth0&logoColor=white)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Cloudflare D1](https://img.shields.io/badge/Cloudflare_D1-F6821F?style=flat-square&logo=cloudflare&logoColor=white)
-
-**Testing & delivery**
-
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-## 🧭 How I build
-
-- Start with the decision a user needs to make, then design the smallest clear system around it.
-- Treat authorization, privacy, and ownership as architecture—not afterthoughts.
-- Validate behavior through automated tests, keyboard review, responsive QA, and production builds.
-- Document tradeoffs, limitations, setup, and release evidence honestly.
-
-## 🤝 Let’s build something useful
-
-I am open to **full-stack and software-engineering roles** where I can contribute dependable engineering, collaborate effectively, and help ship thoughtful products.
-
-<p align="center">
-  <a href="mailto:Onielbf10@gmail.com"><img src="https://img.shields.io/badge/Contact_Oniel-Open_to_opportunities-0284C7?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Oniel about an opportunity" /></a>
-</p>
+**[Start with one scoped issue](mailto:Onielbf10@gmail.com?subject=Scoped%20TypeScript%20maintenance%20issue)** or [review the service details](https://oniel-portfolio.vercel.app/services).
