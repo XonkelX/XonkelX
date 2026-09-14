@@ -27,7 +27,7 @@ I am open to software-engineering, full-stack, product-engineering, backend-lean
 
 - Added bounded, batched persistence for routes learned through crawls and ordinary navigation.
 - Preserved flows, run history, concurrency behavior, and absent-versus-empty semantics.
-- Addressed growth and write-contention review findings; full cross-platform, unit, E2E, desktop, and install gates passed.
+- Addressed growth and write-contention review findings; the contribution merged after upstream validation.
 - Maintainer feedback: “the strongest PR in the queue right now.” [Read the review in context](https://github.com/reticlehq/reticle/pull/278#issuecomment-5289373138).
 
 ### [Apache Maka #2989 — Bound repeated MCP tool rediscovery](https://github.com/apache/maka/pull/2989)
@@ -38,8 +38,8 @@ I am open to software-engineering, full-stack, product-engineering, backend-lean
 
 ### [Apache Fineract #475 — Migrate client tests to Vitest](https://github.com/apache/fineract-backoffice-ui/pull/475)
 
-- Migrated fifteen client-area specification files while preserving behavioral coverage.
-- Passed maintainer approval plus unit, build, formatting, security, CodeQL, and extensive browser gates.
+- Migrated the remaining 13 client-area Jasmine/Karma specifications, covering 73 tests, to Vitest.
+- Passed maintainer approval plus successful unit, build, formatting, security, CodeQL, and browser checks.
 
 ### [Code.Sydney / BlueHex #29 — Add production-build Playwright coverage](https://github.com/codesydney/bluehex/pull/29)
 
