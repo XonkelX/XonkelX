@@ -3,76 +3,62 @@
 </p>
 
 <p align="center">
-  <strong>Software Engineer</strong><br />
-  TypeScript · Node.js · React / Next.js · PostgreSQL<br />
-  Existing codebases · Reliability · Testing · Debugging
+  <strong>Full-stack software engineer building dependable TypeScript systems.</strong><br />
+  React / Next.js · Node.js · PostgreSQL · Automated testing · Production debugging
 </p>
 
 <p align="center">
   <a href="https://onielalejofeliz.space/">Portfolio</a> ·
-  <a href="https://onielalejofeliz.space/services">Maintenance services</a> ·
+  <a href="https://onielalejofeliz.space/services">Services</a> ·
   <a href="mailto:Onielbf10@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/oniel-alejo-feliz-45b293312">LinkedIn</a>
 </p>
 
-## Engineering profile
+I work across product interfaces, backend services, relational data, authorization, and release validation. My strongest work shows how I enter an unfamiliar codebase, reproduce real behavior, make a focused change, and leave behind regression evidence.
 
-I am a software engineer in Tampa, Florida, focused on TypeScript systems across React and Next.js interfaces, Node.js services, and PostgreSQL data boundaries. My strongest public work shows how I enter an unfamiliar repository, reproduce real behavior, respond to maintainer review, add regression coverage, and deliver a focused change through upstream CI.
+## Featured systems
 
-I am open to software-engineering, full-stack, product-engineering, backend-leaning TypeScript, and React roles in Tampa or remote. I am a U.S. permanent resident and do not require employer sponsorship.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/XonkelX/relay-webhook-delivery">
+        <img src="https://raw.githubusercontent.com/XonkelX/relay-webhook-delivery/main/docs/assets/relay-failure-lab.png" alt="Relay Failure Lab showing webhook delivery evidence" width="100%" />
+      </a>
+      <h3><a href="https://github.com/XonkelX/relay-webhook-delivery">Relay</a></h3>
+      <p>Durable webhook delivery with signed requests, deterministic retries, lease recovery, encrypted endpoint secrets, replay lineage, and inspectable failure evidence.</p>
+      <p><strong>TypeScript · React · Cloudflare Workers · D1 · Queues · Hono · Vitest · Playwright</strong></p>
+      <p><a href="https://relay-console.sinmanos.workers.dev/">Live Failure Lab</a> · <a href="https://github.com/XonkelX/relay-webhook-delivery">Source and engineering notes</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/XonkelX/next-queue">
+        <img src="https://raw.githubusercontent.com/XonkelX/next-queue/main/docs/assets/screenshots/staff-board.png" alt="Next staff queue board" width="100%" />
+      </a>
+      <h3><a href="https://github.com/XonkelX/next-queue">Next</a></h3>
+      <p>Real-time queue state with database-enforced authorization, transactional commands, idempotency, concurrency control, and reconnect recovery.</p>
+      <p><strong>Next.js · TypeScript · Supabase · PostgreSQL · Realtime · pgTAP · Playwright</strong></p>
+      <p><a href="https://next-queue-omega.vercel.app">Live application</a> · <a href="https://github.com/XonkelX/next-queue">Source and test evidence</a></p>
+    </td>
+  </tr>
+</table>
 
 ## Maintainer-reviewed open source
 
-### [Reticle #278 — Persist learned routes](https://github.com/reticlehq/reticle/pull/278)
+| Contribution | Engineering result | Evidence |
+| --- | --- | --- |
+| [Reticle #278](https://github.com/reticlehq/reticle/pull/278) | Added bounded, batched persistence for learned routes while preserving concurrency and run-history semantics. | Merged after growth and write-contention review; maintainer called it “the strongest PR in the queue.” [Review](https://github.com/reticlehq/reticle/pull/278#issuecomment-5289373138) |
+| [Apache Maka #2989](https://github.com/apache/maka/pull/2989) | Stopped an MCP server from causing an unbounded tool-list refresh loop. | Merged after edge-case review of slow notifications, snapshots, and disconnect behavior. |
+| [Apache Fineract #475](https://github.com/apache/fineract-backoffice-ui/pull/475) | Migrated 13 client-area specifications covering 73 tests from Jasmine/Karma to Vitest. | Maintainer-approved; unit, build, formatting, security, CodeQL, and browser checks passed. |
+| [Code.Sydney / BlueHex #29](https://github.com/codesydney/bluehex/pull/29) | Added desktop and mobile Playwright coverage for navigation, focus, forms, and structural accessibility. | Merged after review-driven assertion and CI improvements. |
 
-- Added bounded, batched persistence for routes learned through crawls and ordinary navigation.
-- Preserved flows, run history, concurrency behavior, and absent-versus-empty semantics.
-- Addressed growth and write-contention review findings; the contribution merged after upstream validation.
-- Maintainer feedback: “the strongest PR in the queue right now.” [Read the review in context](https://github.com/reticlehq/reticle/pull/278#issuecomment-5289373138).
+Also merged: [Clarvia #269 — checklist accessibility](https://github.com/clarvia-org/clarvia-graph/pull/269) and [Apache Fineract #431 — accounting route titles](https://github.com/apache/fineract-backoffice-ui/pull/431).
 
-### [Apache Maka #2989 — Bound repeated MCP tool rediscovery](https://github.com/apache/maka/pull/2989)
+## What I bring to a codebase
 
-- Stopped an MCP server from causing an unbounded tool-list refresh loop.
-- Revised the design after substantive edge-case review covering slow notifications, snapshot preservation, and disconnect behavior.
-- Maintainers confirmed the blockers were resolved before merge; upstream checks passed.
+- Secure ownership boundaries, authentication, sessions, permissions, and Supabase RLS
+- React state, forms, filters, APIs, data loading, and relational modeling
+- Vitest, Playwright, pgTAP, accessibility checks, CI, and production smoke tests
+- Root-cause diagnosis, focused fixes, clear pull requests, and release evidence
 
-### [Apache Fineract #475 — Migrate client tests to Vitest](https://github.com/apache/fineract-backoffice-ui/pull/475)
+I am open to software-engineering, full-stack, product-engineering, backend-leaning TypeScript, and React roles in Tampa or remote. I am a U.S. permanent resident and do not require employer sponsorship.
 
-- Migrated the remaining 13 client-area Jasmine/Karma specifications, covering 73 tests, to Vitest.
-- Passed maintainer approval plus successful unit, build, formatting, security, CodeQL, and browser checks.
-
-### [Code.Sydney / BlueHex #29 — Add production-build Playwright coverage](https://github.com/codesydney/bluehex/pull/29)
-
-- Added desktop and mobile browser coverage for routes, focus behavior, navigation, form submission, and structural accessibility.
-- Strengthened the assertions and CI workflow in response to maintainer review before merge.
-
-### [Clarvia #269 — Improve checklist accessibility](https://github.com/clarvia-org/clarvia-graph/pull/269)
-
-- Fixed focus containment and restoration, question labels, selected-state semantics, and keyboard-operable result cards.
-- Merged after maintainer approval and repository validation.
-
-Also merged: [Apache Fineract #431 — Accounting route titles](https://github.com/apache/fineract-backoffice-ui/pull/431). Open contributions remain labeled separately: [Agenta #6224](https://github.com/Agenta-AI/agenta/pull/6224) and [FinVerify #70](https://github.com/FinVerify/Finverify/pull/70).
-
-## Selected systems
-
-### [Relay — Webhook delivery and failure recovery](https://github.com/XonkelX/relay-webhook-delivery)
-
-TypeScript, React, Cloudflare Workers, D1, Queues, Hono, Vitest, and Playwright. Relay demonstrates durable scheduling, signed requests, deterministic retries, lease recovery, encrypted endpoint secrets, replay lineage, and inspectable failure evidence. [Open the Failure Lab](https://relay-console.sinmanos.workers.dev/).
-
-### [Next — Authorization and real-time queue state](https://github.com/XonkelX/next-queue)
-
-Next.js, TypeScript, Supabase, PostgreSQL, Realtime, pgTAP, and Playwright. Next demonstrates database-enforced RLS, transactional commands, idempotency, private and public data boundaries, concurrency control, and reconnect recovery. [Open the live application](https://next-queue-omega.vercel.app).
-
-## Need an existing TypeScript app fixed?
-
-I work on scoped maintenance and reliability problems in React, Next.js, Node.js, Supabase, and PostgreSQL codebases:
-
-- authentication, sessions, permissions, tenant isolation, and Supabase RLS
-- API, query, data-loading, React state, forms, filters, and dashboard bugs
-- build, Vercel, environment, runtime, CI, and unstable-test failures
-- Playwright and Vitest regression coverage
-- independent review and stabilization of AI-built or AI-assisted applications
-
-The working pattern is simple: existing codebase → root-cause diagnosis → focused safe fix → regression evidence → clean pull request → clear explanation.
-
-**[Start with one scoped issue](mailto:Onielbf10@gmail.com?subject=Scoped%20TypeScript%20maintenance%20issue)** or [review the service details](https://onielalejofeliz.space/services).
+**[Start a conversation](mailto:Onielbf10@gmail.com?subject=Software%20engineering%20opportunity)** · [Portfolio case studies](https://onielalejofeliz.space/) · [Scoped maintenance services](https://onielalejofeliz.space/services)
